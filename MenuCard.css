@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(rgb(0,0,0,0.8) , rgb(0,0,0,0.8)) , url(./Images/Coffee\ Beans.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+.heading {
+    color: white;
+    text-align: center;
+    border: 1.5px solid white;
+    border-radius: 35px;
+    padding: 10px 30px;
+    margin: 0px 25px;
+    position: relative;
+}
+.title {
+    font-family:cursive;
+    font-size: 70px;
+}
+.slogan {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 600px;
+}
+.logo {
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+.navbar {
+    margin: 10px 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0px 1px;
+}  
+li a:hover {
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+.active {
+    background-color: #04AA6D;
+}
+.drsec , .snsec {
+    color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid wheat;
+    margin: 5px 50px;
+    padding: 8px 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: wheat;
+}
+.drinks , .snacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 35px 5px 35px;
+}
+.coffee , .snc {
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    background-color: pink;
+    position: relative;
+    border-radius: 28px;
+    margin: 5px 10px;
+}
+.img {
+    border-radius: 25px;
+    display: none;
+}
+.coffee:hover .img {
+    display:block;
+    opacity: 1
+}
+.snc:hover .img {
+    display:block;
+    opacity: 1
+}
+.name {
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+    padding: 85px 0px 0px 0px;
+}
+.coffee:hover .name {
+    padding: 5px 0px 0px 0px;
+}
+.snc:hover .name {
+    padding: 5px 0px 0px 0px;
+}
